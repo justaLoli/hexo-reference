@@ -1,37 +1,9 @@
 # hexo-reference
 
-A plugin to support markdown footnotes and Wiki-Style tooltip reference in your Hexo blog posts.
+修改了原有代码的逻辑。实现
 
-## Installation
+1. 标号可以不是数字
+2. 修复排版错误
 
-```
-npm install hexo-reference --save
-```
-
-If Hexo detect automatically all plugins, that's all.  
-
-If that is not the case, register the plugin in your `_config.yml` file :
-```
-plugins:
-  - hexo-reference
-```
-
-## Syntax
-
-### Mardown
-```
-basic footnote[^1]
-here is an inline footnote[^2](inline footnote)
-and another one[^3]
-and another one[^4]
-
-[^1]: basic footnote content
-[^3]: paragraph
-footnote
-content
-[^4]: footnote content with some [markdown](https://en.wikipedia.org/wiki/Markdown)
-```
-
-
-### Output
-![footnotes](http://rw920d1od.hd-bkt.clouddn.com/hexo/footnote.png)
+在hexo-theme-keep
+上使用并测试。
